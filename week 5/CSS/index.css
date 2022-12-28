@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Rubik+80s+Fade&display=swap');
+*{
+    font-family: 'Caramel', cursive;
+    font-size: large;
+ }
+ .box1{
+    border-style: dotted;
+    width: fit-content;
+    border-width: 0.3em;
+    background-color: aqua;
+    border-radius: 6%;
+ }
+ .box2{
+    border-style: groove;
+    width:fit-content;
+    border-width: 1em;
+    background-color: blanchedalmond;
+    border-radius: 8%;
+ }
+ .box3{
+   border-style: ridge;
+   width:min-content;
+   border-width: 2em;
+   background-color: brown;
+   border-radius:10%;
+ }

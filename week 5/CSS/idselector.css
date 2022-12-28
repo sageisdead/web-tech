@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Rubik+80s+Fade&display=swap');
+*{
+    font-family: 'Caramel', cursive;
+ }
+#heading{
+ background-color: aqua;
+ color:black;
+ font-size: 60px;
+ }
+.paragraph{
+    color:black;
+    font-size: 30px;
+    font-style: oblique;
+}
+.p1{
+    background-color: red;
+}
+
+.p2{
+background-color: blanchedalmond;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
