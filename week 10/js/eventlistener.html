@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener</title>
+    <style>
+        .darkmode{
+            background-color:black;
+            color:white;
+        }
+    </style>
+</head>
+<body class="darkmode">
+    <!-- <h1> Getting Started with Event Listener</h1> -->
+    <h1> Toggle function darkmode lightmode </h1>
+    <button onclick="myFunction()"> Click here!</button> 
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus architecto voluptatibus vel, accusantium voluptates atque aliquid ut incidunt neque. Nisi, nesciunt sit? Dolorum sunt accusamus, ea ad labore omnis quibusdam!</p>
+    <script>
+        function myFunction(){
+            var element= document.body;
+            element.classList.toggle("darkmode")
+        // document.write("<h1>I am here after I got clicked</h1>");
+        }
+    </script>
+    
+</body>
+</html>
